@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jguerra21/progressive-budget"
+    "url": "git+git@github.com:jguerra21/progressive-budget.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jguerra21/progressive-budget/issues"
+    "url": "git@github.com:jguerra21/progressive-budget/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "git@github.com:jguerra21/progressive-budget#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
