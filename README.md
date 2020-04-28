@@ -2,7 +2,7 @@
 
 Heroku Deployed App Link: 
 
-Github App Link:
+Github App Link: https://github.com/jguerra21/progressive-budget
 
 
 ## Table of Contents
