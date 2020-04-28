@@ -1,0 +1,18 @@
+{
+  "name": "progressive-budget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.5.3",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
+  }
+}
