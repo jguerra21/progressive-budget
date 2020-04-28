@@ -14,10 +14,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
+const MONGODB_URI =
+  process.env.MONGODB_URI || "mongodb://localhost:27017/workout";
 
-mongoose.connect("mongodb://localhost/budget", {
+mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
 });
 
 // routes
